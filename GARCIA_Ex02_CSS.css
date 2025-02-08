@@ -109,8 +109,8 @@
 #autobiography {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  gap: 40px;
+  justify-content: center;
+  gap:350px;
   width: 100%;
 }
 
@@ -124,6 +124,7 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: black;
   background-color: white;
-  padding: 100px;
+  padding: 30px;
   border-radius: 10px;
+  width: 500px;
 }
