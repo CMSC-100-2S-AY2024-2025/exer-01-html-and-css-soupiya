@@ -41,30 +41,33 @@
 
 .portfolio {
   background-color: #1c1c1c;
-  height: 100%;
-  width: 100vw;
+  height: auto;
+  width: auto;
 
 }
  
-.project{
-  display: flex;
-  background-color: white;
-  height: 150px;
-  width: 150px;
-  
-}
 
-#bar1, #bar2{
+#bar1, #bar2, #bar3, #skills{
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  color: white;
   background-color: #141414;
-  width: 70%;
-  border-radius: 40px;
+  width: 40%;
+  min-height: 250px; 
+  border-radius: 50px;
   margin: 0 auto;
   text-shadow: #434343;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  gap: 50px;
+  justify-content: center
 }
 
+.project_text {
+  max-width: 50%;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+}
 #footer {
   width: 100vw;
   background-color: #141414;
@@ -101,4 +104,26 @@
   font-size: 25px;
   display: flex;
   justify-content: center;
+}
+
+#autobiography {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 40px;
+  width: 100%;
+}
+
+#id_img {
+  width: 10px;
+}
+
+#autobiography_text {
+  text-align: left;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  background-color: white;
+  padding: 100px;
+  border-radius: 10px;
 }
