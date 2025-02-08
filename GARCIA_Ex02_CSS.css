@@ -40,18 +40,17 @@
 }
 
 .portfolio {
-  background-color: #1c1c1c;
+  /* background-color: #1c1c1c; */
   height: auto;
-  width: auto;
-
+  width: 100vw;
+  background-image: linear-gradient(rgb(21, 21, 21), rgb(19, 72, 19),rgb(19, 72, 19), rgb(21, 21, 21), rgb(21, 21, 21));
 }
- 
 
 #bar1, #bar2, #bar3, #skills{
   display: flex;
   color: white;
   background-color: #141414;
-  width: 40%;
+  width: 50%;
   min-height: 250px; 
   border-radius: 50px;
   margin: 0 auto;
@@ -68,6 +67,7 @@
   font-size: 16px;
   line-height: 1.5;
 }
+
 #footer {
   width: 100vw;
   background-color: #141414;
