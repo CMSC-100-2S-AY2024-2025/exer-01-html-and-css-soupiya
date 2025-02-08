@@ -1,31 +1,104 @@
-.portfolio{
-  background-color: bisque;
-  height: 100vh;
-  width: 100vh;
-  align-content: center;
-}
-
-.featured_photo {
+.greetings {
   display: flex;
-  border: 5px red;
-  background-color: black;
-}
-
-.project{
-  display: inline-block;
-  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
   color: white;
-  border: 3px solid #9c9c78;
-  margin: 5px;
-  height: 100px;
-  width: 300px;
+  background-color: rgb(21, 21, 21);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#hello {
+  display: flex;
+  font-size: 50px;
+  text-shadow: 0px 0px 100px green, 0px 0px 200px green, 0px 0px 300px green;
+}
 
-.footer {
+#name {
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  text-shadow: 0px 0px 150px white;
+  font-weight: bolder;
+}
+
+.navigation_bar{
+  background-color: #434343;
+  padding: 50px;
+  font-size: 30px;
+  font-variant: small-caps;
+  width: 350px;
+  height: 350px;
+}
+
+.text {
+  color: white;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+
+.portfolio {
+  background-color: #1c1c1c;
+  height: 100%;
+  width: 100vw;
+
+}
+ 
+.project{
+  display: flex;
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  
+}
+
+#bar1, #bar2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #141414;
+  width: 70%;
+  border-radius: 40px;
+  margin: 0 auto;
+  text-shadow: #434343;
+}
+
+#footer {
+  width: 100vw;
+  background-color: #141414;
+  
+}
+
+#info {
+  display: flex;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  flex-direction: row;
+  padding: 40px;
+  justify-content: space-evenly;
+}
+
+#footer_logo {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+#socmed_links {
+  display: flex;
+  width: auto;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title_text {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  background-color: #9c9c78;
 }
-
